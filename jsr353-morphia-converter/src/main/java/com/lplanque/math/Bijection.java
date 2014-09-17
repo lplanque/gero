@@ -13,7 +13,7 @@ package com.lplanque.math;
  *    <li>Let <I>x</I> be of type <code>E</code> and <I>y</I> be of type <code>F</code>,</li>
  *    <li>Then <I>f</I><code>.unply(</code><I>f</I><code>.apply(</code><I>x</I><code>)).equals(</code><I>x</I><code>)</code>.</li>
  * </ul>
- * @author <a href="mailto:planquel@lild01.pictime.fr">planquel</a>
+ * @author <a href="https://github.com/lplanque" target="_blank">Laurent Planque</a>
  */
 public interface Bijection<E, F> {
 	

@@ -25,7 +25,7 @@ import com.mongodb.DBObject;
  *    <li>{@link DBObject}.
  * </ul>
  * 
- * @author <a href="mailto:planquel@lild01.pictime.fr">planquel</a>
+ * @author <a href="https://github.com/lplanque" target="_blank">Laurent Planque</a>
  */
 public class MorphiaJsonObjectBijection implements Bijection<Object, DBObject> {
 	

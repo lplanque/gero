@@ -21,7 +21,7 @@ import com.mongodb.DBObject;
  * {@link #encode(Object, MappedField)}) method, we find the <I>nearest</I> registered type having
  * a bijection and call it to decode (resp. encode) the given object.
  *  
- * @author <a href="mailto:planquel@lild01.pictime.fr">planquel</a>
+ * @author <a href="https://github.com/lplanque" target="_blank">Laurent Planque</a>
  */
 public abstract class MorphiaConverter extends TypeConverter implements SimpleValueConverter {
 	

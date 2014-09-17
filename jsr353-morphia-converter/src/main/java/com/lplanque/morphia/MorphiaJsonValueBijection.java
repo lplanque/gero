@@ -28,7 +28,7 @@ import com.mongodb.DBObject;
  * Because the JsonValue is a non-terminal type, we use other bijections in
  * this package to map values to a coherent {@link DBObject} representation.
  * 
- * @author <a href="mailto:planquel@lild01.pictime.fr">planquel</a>
+ * @author <a href="https://github.com/lplanque" target="_blank">Laurent Planque</a>
  */
 public final class MorphiaJsonValueBijection implements Bijection<Object, DBObject> {
 	

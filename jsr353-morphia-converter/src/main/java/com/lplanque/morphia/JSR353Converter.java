@@ -23,7 +23,7 @@ import com.mongodb.DBObject;
  * <br/>
  * Each JSR-353 type is associated to a {@link Bijection} to encode it to a
  * Mongo {@link DBObject} and decode it from.
- * @author <a href="mailto:planquel@lild01.pictime.fr">planquel</a>
+ * @author <a href="https://github.com/lplanque" target="_blank">Laurent Planque</a>
  */
 public final class JSR353Converter extends MorphiaConverter {
 
