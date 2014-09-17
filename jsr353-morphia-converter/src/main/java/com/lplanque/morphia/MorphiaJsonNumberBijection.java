@@ -38,7 +38,7 @@ public final class MorphiaJsonNumberBijection implements Bijection<Object, DBObj
 	/**
 	 * Creates an instance of {@link JsonNumber} from a given {@link BigDecimal}.
 	 * If <code>x</code> is <code>null</code> then it returns <code>null</code>.
-	 * @param x The <I>big decimal</code> to map as JsonNumber...
+	 * @param x The {@link BigDecimal} to map as {@link JsonNumber}...
 	 * @return A {@link JsonNumber} implementation according to the JSR-353. 
 	 */
 	public static JsonNumber asJsonNumber(final BigDecimal x) {
