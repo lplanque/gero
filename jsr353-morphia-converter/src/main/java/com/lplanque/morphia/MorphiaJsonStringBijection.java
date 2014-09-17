@@ -35,7 +35,7 @@ public final class MorphiaJsonStringBijection implements Bijection<Object, DBObj
 	/**
 	 * Creates an instance of {@link JsonString} from a given {@link String}.
 	 * If <code>s</code> is <code>null</code> then it returns <code>null</code>.
-	 * @param s The <I>string</code> to map as JsonString...
+	 * @param s The <I>string</I></code> to map as JsonString...
 	 * @return A {@link JsonString} implementation according to the JSR-353. 
 	 */
 	public static JsonString asJsonString(final String s) {
