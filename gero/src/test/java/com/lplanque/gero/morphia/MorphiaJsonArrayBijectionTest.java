@@ -1,12 +1,13 @@
-package com.lplanque.morphia;
+package com.lplanque.gero.morphia;
 
 import java.math.BigDecimal;
 
 import javax.json.Json;
 import javax.json.JsonArray;
 
-import com.lplanque.math.BijectionTest;
-
+import com.lplanque.gero.math.BijectionTest;
+import com.lplanque.gero.morphia.MorphiaJsonArrayBijection;
+import com.lplanque.gero.morphia.MorphiaJsonStringBijection;
 import com.mongodb.DBObject;
 
 public class MorphiaJsonArrayBijectionTest extends BijectionTest<Object, DBObject> {

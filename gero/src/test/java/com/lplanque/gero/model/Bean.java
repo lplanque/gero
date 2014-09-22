@@ -1,16 +1,14 @@
-package model;
+package com.lplanque.gero.model;
 
 import javax.json.JsonValue;
 
 import org.bson.types.ObjectId;
-
 import org.mongodb.morphia.annotations.Converters;
 import org.mongodb.morphia.annotations.Entity;
 import org.mongodb.morphia.annotations.Id;
 
 import com.google.common.base.Objects;
-
-import com.lplanque.morphia.JSR353Converter;
+import com.lplanque.gero.morphia.JSR353Converter;
 
 @Entity @Converters({ JSR353Converter.class })
 public final class Bean {

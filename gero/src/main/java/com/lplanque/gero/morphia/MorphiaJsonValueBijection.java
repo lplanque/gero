@@ -1,7 +1,6 @@
-package com.lplanque.morphia;
+package com.lplanque.gero.morphia;
 
-import static com.lplanque.morphia.JSR353Converter.TYPE_KEY;
-
+import static com.lplanque.gero.morphia.JSR353Converter.TYPE_KEY;
 import static javax.json.JsonValue.ValueType;
 import static javax.json.JsonValue.ValueType.FALSE;
 import static javax.json.JsonValue.ValueType.NULL;
@@ -13,8 +12,7 @@ import javax.json.JsonObject;
 import javax.json.JsonString;
 import javax.json.JsonValue;
 
-import com.lplanque.math.Bijection;
-
+import com.lplanque.gero.math.Bijection;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 

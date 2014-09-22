@@ -1,18 +1,17 @@
-package com.lplanque.morphia;
+package com.lplanque.gero.morphia;
 
 import static org.junit.Assert.assertEquals;
 
 import javax.json.JsonValue;
 
-import model.Bean;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Key;
 import org.mongodb.morphia.Morphia;
+
+import com.lplanque.gero.model.Bean;
 import com.mongodb.MongoClient;
 import com.mongodb.ServerAddress;
 

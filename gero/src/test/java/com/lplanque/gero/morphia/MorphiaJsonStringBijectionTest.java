@@ -1,9 +1,9 @@
-package com.lplanque.morphia;
+package com.lplanque.gero.morphia;
 
 import javax.json.JsonString;
 
-import com.lplanque.math.BijectionTest;
-
+import com.lplanque.gero.math.BijectionTest;
+import com.lplanque.gero.morphia.MorphiaJsonStringBijection;
 import com.mongodb.DBObject;
 
 public final class MorphiaJsonStringBijectionTest extends BijectionTest<Object, DBObject> {

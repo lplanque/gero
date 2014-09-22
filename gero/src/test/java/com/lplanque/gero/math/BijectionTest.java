@@ -1,8 +1,10 @@
-package com.lplanque.math;
+package com.lplanque.gero.math;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.lplanque.gero.math.Bijection;
 
 public abstract class BijectionTest<E, F> {
 

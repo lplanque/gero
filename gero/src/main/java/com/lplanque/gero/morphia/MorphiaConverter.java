@@ -1,4 +1,4 @@
-package com.lplanque.morphia;
+package com.lplanque.gero.morphia;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,12 +6,10 @@ import java.util.Map;
 import org.mongodb.morphia.converters.SimpleValueConverter;
 import org.mongodb.morphia.converters.TypeConverter;
 import org.mongodb.morphia.mapping.MappedField;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.lplanque.math.Bijection;
-
+import com.lplanque.gero.math.Bijection;
 import com.mongodb.DBObject;
 
 /**

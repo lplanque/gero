@@ -1,4 +1,4 @@
-package com.lplanque.morphia;
+package com.lplanque.gero.morphia;
 
 import javax.json.JsonArray;
 import javax.json.JsonNumber;
@@ -6,8 +6,7 @@ import javax.json.JsonObject;
 import javax.json.JsonString;
 import javax.json.JsonValue;
 
-import com.lplanque.math.Bijection;
-
+import com.lplanque.gero.math.Bijection;
 import com.mongodb.DBObject;
 
 /**

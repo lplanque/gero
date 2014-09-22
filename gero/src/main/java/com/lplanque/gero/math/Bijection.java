@@ -1,4 +1,4 @@
-package com.lplanque.math;
+package com.lplanque.gero.math;
 
 /**
  * This interface denotes a <I>bijection</I> in the mathematical sense :<br/>
